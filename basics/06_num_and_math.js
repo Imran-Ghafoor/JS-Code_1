@@ -12,3 +12,6 @@ console.log(balance.toFixed(2));
 
 const otherNumber = 125.789
 console.log(otherNumber.toPrecision(3));
+
+const bigNumber = 1000000;
+console.log(bigNumber.toLocaleString())
