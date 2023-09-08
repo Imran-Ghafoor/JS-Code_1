@@ -31,3 +31,4 @@ const url = "imranghafoor427_20%.com";
 console.log(url.replace('_20%',  '@gmail'));
 console.log (url.includes('khan'));
 console.log(gameName.split('-'));
+console.log(gameName.toUpperCase());
