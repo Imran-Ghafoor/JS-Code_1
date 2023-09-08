@@ -32,3 +32,4 @@ console.log(url.replace('_20%',  '@gmail'));
 console.log (url.includes('khan'));
 console.log(gameName.split('-'));
 console.log(gameName.toUpperCase());
+console.log(gameName.codePointAt());
