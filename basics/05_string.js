@@ -33,3 +33,5 @@ console.log (url.includes('khan'));
 console.log(gameName.split('-'));
 console.log(gameName.toUpperCase());
 console.log(gameName.codePointAt());
+console.log(gameName.matchAll('ok'));
+console.log(gameName.normalize());
