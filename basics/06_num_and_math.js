@@ -18,8 +18,10 @@ const bigNumber = 100000;
 // console.log(bigNumber.toLocaleString('en-PK'));
 
 
-          //* ************************************************* *//
+          //+++++++++++++++++++++++++////+++++++++++++++++++++++++++++//
+
+                       // +++++++++ Math  ++++++++++++ //
 
 console.log(Math);
 console.log(Math.abs(-5));
-console.log(Math.round(4.9));
+console.log(Math.round(4.9));   
