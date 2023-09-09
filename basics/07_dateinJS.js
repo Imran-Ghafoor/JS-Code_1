@@ -1,4 +1,4 @@
-//  Dates ///
+//  Dates In Javascript //
 
 let myDate = new Date()
 // console.log(myDate);
