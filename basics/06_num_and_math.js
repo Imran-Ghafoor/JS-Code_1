@@ -8,10 +8,10 @@ const balance = new Number(500)
 // console.log(balance);
 
 // console.log(balance.toString());
-// console.log(balance.toFixed(2));
+console.log(balance.toFixed(2));
 
 const otherNumber = 125.789
-// console.log(otherNumber.toPrecision(3));
+console.log(otherNumber.toPrecision(3));
 
 const bigNumber = 100000;
 // console.log(bigNumber.toLocaleString())
