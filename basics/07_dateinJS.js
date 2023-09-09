@@ -9,3 +9,4 @@ let myDate = new Date()
 console.log(myDate.toLocaleDateString());
 console.log(myDate.toLocaleString());
 console.log(myDate.toLocaleTimeString());
+console.log(typeof myDate);
