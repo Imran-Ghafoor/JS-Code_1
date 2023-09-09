@@ -24,4 +24,6 @@ const bigNumber = 100000;
 
 console.log(Math);
 console.log(Math.abs(-5));
-console.log(Math.round(4.9));   
+console.log(Math.round(4.9));  
+console.log(Math.sqrt(40));
+console.log(Math.min(2,4,6,9));
