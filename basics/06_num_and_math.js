@@ -22,8 +22,11 @@ const bigNumber = 100000;
 
                        // +++++++++ Math  ++++++++++++ //
 
-console.log(Math);
-console.log(Math.abs(-5));
-console.log(Math.round(4.9));  
-console.log(Math.sqrt(40));
-console.log(Math.min(2,4,6,9));
+// console.log(Math);
+// console.log(Math.abs(-5));
+// console.log(Math.round(4.9));  
+// console.log(Math.sqrt(40));
+// console.log(Math.min(2,4,6,9));
+// console.log(Math.max(2,4,6,8,9,10));
+
+console.log(Math.random());
