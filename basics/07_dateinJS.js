@@ -15,6 +15,10 @@ let myDate = new Date()
 // let myCreatedDate = new Date(2023, 0, 23, 5, 3)
 let myCreatedDate = new Date("2023-01-15")         // date in dd/mm/yy
 
-console.log(myCreatedDate.toLocaleString());
+// console.log(myCreatedDate.toLocaleString());
 
 // console.log(myCreatedDate.toDateString());
+
+let myTime = Date.now()
+console.log(myTime);
+console.log(myCreatedDate.getTime());
