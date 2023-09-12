@@ -10,7 +10,10 @@
 
  //++++++++ Array Methods ++++++//
 
- myArr.push(6)
+ myArr.push(6)      // add the value from end of the array
  myArr.push(7)
+
+ myArr.pop()        // remove the value from the end of array
+ myArr.pop()
 
  console.log(myArr);
