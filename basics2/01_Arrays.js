@@ -1,8 +1,11 @@
- // +++++ Arrays ++++++++///
- console.log("imran")
+ // +++++++ Arrays ++++++++//
+
+ const myArr = [0,1,2,3,4,5]
+
+ const myHerro = ["imrankhan", "Iqbal"]
 
 
- console.log("ali");
 
- console.log("kahn");
- ///end
+ const myArr2 = new Array(0,1,2,3,4)
+
+ console.log(myArr[2]);
