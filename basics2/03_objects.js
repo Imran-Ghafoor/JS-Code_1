@@ -20,15 +20,25 @@ const JsUser = {
 }
 
 //ways to access objects>
-console.log(JsUser.email);
-console.log(JsUser["age"]);
-console.log(JsUser["full name"]);
-console.log(JsUser[mySym] );
+// console.log(JsUser.email);
+// console.log(JsUser["age"]);
+// console.log(JsUser["full name"]);
+// console.log(JsUser[mySym] );
 
 JsUser.email = "imrankhan@gmail.com"     // How to update object value //
 
-Object.freeze(JsUser);                   // how to freeze the object
+// Object.freeze(JsUser);                   // how to freeze the object
 
 JsUser.email = "kahanbaba.com"
-console.log(JsUser);
+// console.log(JsUser);
+
+JsUser.greetings = function(){
+    console.log("Hello Js");
+}
+
+JsUser.greetingsTwo = function(){
+    console.log(`Hello Js user, ${this.name} `);
+}
+console.log(JsUser.greetings());
+console.log(JsUser.greetingsTwo());
 
