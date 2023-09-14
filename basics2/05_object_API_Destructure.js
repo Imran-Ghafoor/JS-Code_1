@@ -13,10 +13,10 @@ const {courseInstructor : instructor} = course
 // console.log(courseInstructor);
 console.log(instructor);
 
-const navbar = (prop.company) =>{              // in this react code sometimes we access value with props
+// const navbar = (prop.company) =>{              // in this react code sometimes we access value with props
 const navbar = ({company}) => {}              // in this we not need to use props . again again,only use destructure and access the value direct
 
-}
+// }
 navbar( company="imran" )
 
 // +++++++++++ API +++++++++++ //
@@ -27,11 +27,11 @@ navbar( company="imran" )
 
 // JSON format         // JSON is javascript object notation
 
-{
-    "name": "imran",
-    "course": "coumputer",
-    "price": "free"
-}
+// {
+//     "name": "imran",
+//     "course": "coumputer",
+//     "price": "free"
+// }
 
 // API comes in Object forms but not anytime, sometimes comes in Array form
 
