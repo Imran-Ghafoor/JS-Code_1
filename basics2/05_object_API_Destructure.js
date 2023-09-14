@@ -37,7 +37,7 @@ navbar( company="imran" )
 
 [
     {},
-    {},                        // randomuser me api //
+    {},                        // randomuser me api  >googe browse //
     {}
 ]
 
