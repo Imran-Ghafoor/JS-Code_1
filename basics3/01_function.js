@@ -21,4 +21,10 @@ function addTwoNumbers(number1, number2){
 // addTwoNumbers(5, 5) 
 
 const result = addTwoNumbers(5, 5) 
-console.log("result:", result );
+// console.log("result:", result );
+
+function loginUserMessage(username){
+    return `${username} just logged in `
+
+}
+console.log(loginUserMessage("Imran"))
