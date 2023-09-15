@@ -31,3 +31,10 @@ console.log(loginUserMessage("Imran"))
 
 
 // ++++++++++function with objects /////
+
+
+
+
+
+
+// function with array //
