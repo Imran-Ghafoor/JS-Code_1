@@ -15,13 +15,13 @@ function myName(){
 // }
 
 function addTwoNumbers(number1, number2){
-    let result = number1 + number2
+    let result = number1 + number2                  // return when print the value
     return result
 }
 // addTwoNumbers(5, 5) 
 
 const result = addTwoNumbers(5, 5) 
-// console.log("result:", result );
+// console.log("result:", result );            
 
 function loginUserMessage(username){
     return `${username} just logged in `
