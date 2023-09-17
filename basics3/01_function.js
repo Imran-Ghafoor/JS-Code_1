@@ -35,3 +35,6 @@ function myName(){
 myName()
 
 // objects in javasicript
+
+
+// array in function
