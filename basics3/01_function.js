@@ -29,15 +29,7 @@ function loginUserMessage(username){
 }
 console.log(loginUserMessage("Imran"))
 
-
-// ++++++++++function with objects /////
-
-
-
-
-
-
-
-
-
-// function with array //
+function myName(){
+    console.log("imrankhan")
+}
+myName()
