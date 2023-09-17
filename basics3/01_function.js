@@ -33,3 +33,5 @@ function myName(){
     console.log("imrankhan")
 }
 myName()
+
+// objects in javasicript
