@@ -27,11 +27,9 @@ function loginUserMessage(username){
     return `${username} just logged in `
 
 }
-console.log(loginUserMessage("Imran"))
+// console.log(loginUserMessage("Imran"))
 
-function myName(){
-    console.log("imrankhan")
+function calculateCartPrice(num1){
+    return num1
 }
-myName()
-
-// objects in javasicript
+console.log (calculateCartPrice(2));
