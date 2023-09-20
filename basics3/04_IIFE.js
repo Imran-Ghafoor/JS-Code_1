@@ -11,5 +11,3 @@
     console.log(`DB CONNECTED TWO ${name}`);
 
 })("imran")  
-
-// iifi invoked function //
