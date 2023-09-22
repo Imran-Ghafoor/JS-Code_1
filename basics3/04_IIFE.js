@@ -10,6 +10,4 @@
 ( (name) => {
     console.log(`DB CONNECTED TWO ${name}`);
 
-})("imran")  
-
-// IIFI function //
+})("imran") 
