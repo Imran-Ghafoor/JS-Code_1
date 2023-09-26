@@ -21,5 +21,5 @@ const temperature = 60
 // }
 // console.log(`User Power: ${power}`);        // scope concept
 
-
+// break statement
 
