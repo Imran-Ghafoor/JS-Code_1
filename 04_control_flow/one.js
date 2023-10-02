@@ -20,3 +20,4 @@ const temperature = 60
 //     console.log(`User Power: ${power}`);
 // }
 // console.log(`User Power: ${power}`);        // scope concept
+
