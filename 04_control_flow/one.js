@@ -2,8 +2,8 @@
 // If statment
 
 
-const isUserLoggedIn = true
-const temperature = 60
+// const isUserLoggedIn = true
+// const temperature = 60
 
 // if(temperature === 70){
 // console.log("less than 60");
@@ -21,4 +21,18 @@ const temperature = 60
 // }
 // console.log(`User Power: ${power}`);        // scope concept
 
-// switch statment
+// reall life example 
+
+const userLoggedIn = true
+const debitCard = true
+const loggedInFromGoogle = false
+const loggedInFromGmail = true
+
+if(userLoggedIn && debitCard){
+    console.log("Allow to buy course");
+}
+
+if (loggedInFromGmail || loggedInFromGmail){
+    console.log("User Logged In");
+}
+
