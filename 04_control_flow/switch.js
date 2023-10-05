@@ -1,4 +1,4 @@
-// switch statment 
+// switch statment
 //investigate switch oprator
 
 const month = 3
@@ -17,6 +17,10 @@ switch (month) {
         break;
     case 4:
         console.log("April");
+
+        break;
+    case 4:
+        console.log("May");
 
         break;
 
