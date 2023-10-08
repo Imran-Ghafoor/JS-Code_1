@@ -14,9 +14,9 @@ if (userEmail) {
 
 // "0" , [] , 'false' , " " , {} , funciton(){} ,  
 
-// if (userEmail.length === 0) {
-//     console.log("Array is empty");
-// }
+if (userEmail.length === 0) {               // if check array in API / database
+    console.log("Array is empty");
+}
 
 const emptyObj = {}
 
@@ -41,3 +41,4 @@ console.log(val1);
 
 const iceTeaPrice = 100
 iceTeaPrice <= 80 ? console.log("Less than 80") : console.log("More than 80");
+
