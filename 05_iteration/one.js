@@ -13,6 +13,8 @@ for (let i = 0; i <= 5; i++) {
     for (let j = 0; j <= 5; j++) {
         console.log(`inner loop value:${j} and outer loop ${i}`);
 
+        console.log(i + '*' + j + ' = ' + i * j);
+
 
 
     }
