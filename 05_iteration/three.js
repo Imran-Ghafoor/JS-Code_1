@@ -20,4 +20,14 @@ const map = new Map()
 map.set('PK', "pakistan")
 map.set('Fr', "france")
 map.set('UK', "united kingdom")
-console.log(map);
+// console.log(map);
+
+// Forof loop on Map
+
+// for (const key of map) {   // value get in array but if we need sepate So 
+    // console.log(key);       // apply a short key 
+// }
+
+for (const [key, value] of map) {           // for seprate value
+    console.log(key, ':-' , value);
+}
