@@ -19,9 +19,28 @@ const coding = ['js', 'py', 'java', 'ruby', 'cpp']
 
 
 coding.forEach((items, index, arr) => {   // loop have many parameter value
-    console.log(items, index, arr);
+    // console.log(items, index, arr);
 })
 
+// Objects in Array
+
+const myCodding = [
+    {
+        languageNmae: 'javascript',
+        languageFileName: 'Js'
+    },
+    {
+        languageNmae: 'Python',
+        languageFileName: 'Py'
+    },
+    {
+        languageNmae: 'Ruby On Rails',
+        languageFileName: 'Rb'
+    }
+]
+myCodding.forEach((items) => {
+    console.log(items.languageFileName);
+})
 
 
 
