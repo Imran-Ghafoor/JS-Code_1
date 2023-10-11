@@ -11,5 +11,13 @@ for (const num of arr) {
 
 const greetings = "Hello World!"
 for (const greet of greetings) {
-    console.log(`Each character is: ${greet}`);
+    // console.log(`Each character is: ${greet}`);
 }
+
+// Maps               // Maps is use for unique value , also an objet
+
+const map = new Map()
+map.set('PK', "pakistan")
+map.set('Fr', "france")
+map.set('UK', "united kingdom")
+console.log(map);
