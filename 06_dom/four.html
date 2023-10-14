@@ -34,5 +34,14 @@
     newLi.textContent = 'Java'
     editSecondLang.replaceWith(newLi)
 
+    // Edit othway
+    const FirstLang = document.querySelector("li:nth-child(1)")
+    FirstLang.outerHTML = "<li>Go</li>"
+
+    
+    const lastLang = document.querySelector("li:last-child")
+    lastLang.remove()
+
+
 </script>
 </html>
