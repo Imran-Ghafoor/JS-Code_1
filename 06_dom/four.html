@@ -19,11 +19,20 @@
     addLanguage('Python')
     addLanguage('Typescript')
 
+    // with more Optimized WAY
     function addOptiLanguage(langName) {
         const li = document.createElement('li')
         li.appendChild(document.createTextNode(langName))
     }
     addLanguage('Kotlin')
+
+    // Edit
+    const editSecondLang = document.querySelector('li:nth-child(2)')
+    // console.log(editSecondLang); // for check vaue
+    // li.innerHTML = "Java"
+    const newLi = document.createElement('li')
+    newLi.textContent = 'Java'
+    editSecondLang.replaceWith(newLi)
 
 </script>
 </html>
