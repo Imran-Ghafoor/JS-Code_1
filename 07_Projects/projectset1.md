@@ -2,7 +2,7 @@
 
 ## Project Link
 
-[click here]()
+[click here](https://github.com/Imran-Ghafoor/JS-DOM-Project)
 
 # Solution Code
 
