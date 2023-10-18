@@ -39,3 +39,5 @@ buttons.forEach(function (button) {
     });
 });
 ```
+
+## Project 2
