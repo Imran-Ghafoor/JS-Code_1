@@ -2,7 +2,7 @@
 
 ## Project Link
 
-[click here](https://github.com/Imran-Ghafoor/JS-DOM-Project)
+[click here](https://github.com/Imran-Ghafoor/JS-Mini-Projects/tree/main/1-ColorChanger)
 
 # Solution Code
 
