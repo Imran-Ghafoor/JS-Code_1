@@ -71,9 +71,9 @@ form.addEventListener("submit", function (e) {
 });
 ```
 
-## Project 3
+# Project 3
 
-# Project Link
+## Project Link
 
 [Click here](https://github.com/Imran-Ghafoor/JS-Mini-Projects/tree/main/3-DigitalClock)
 
