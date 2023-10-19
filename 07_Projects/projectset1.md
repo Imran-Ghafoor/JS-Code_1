@@ -70,3 +70,22 @@ form.addEventListener("submit", function (e) {
   }
 });
 ```
+
+## Project 3
+
+# Project Link
+
+[Click here](https://github.com/Imran-Ghafoor/JS-Mini-Projects/tree/main/3-DigitalClock)
+
+```javascript
+console.log(imran);
+const clock = document.getElementById("clock");
+// const cock = document.querySelector('clock')
+
+setInterval(function () {
+  let date = new Date();
+  // console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+  // console.log(clock);
+}, 1000);
+```
