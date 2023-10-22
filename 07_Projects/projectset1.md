@@ -78,7 +78,7 @@ form.addEventListener("submit", function (e) {
 [Click here](https://github.com/Imran-Ghafoor/JS-Mini-Projects/tree/main/3-DigitalClock)
 
 ```javascript
-console.log(imran);
+console.log(Imran);
 const clock = document.getElementById("clock");
 // const cock = document.querySelector('clock')
 
