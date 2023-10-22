@@ -97,6 +97,7 @@ setInterval(function () {
 [click here](https://github.com/Imran-Ghafoor/JS-Mini-Projects/tree/main/4-GuessTheNumber)
 
 ```javascript
+console.log(Imran);
 let randomNumber = parseInt(Math.random() * 100 + 1);
 const submit = document.querySelector("#subt");
 const userInput = document.querySelector("#guessfield");
