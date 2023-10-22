@@ -9,7 +9,7 @@
 ## Project 1
 
 ```Javascript
-console.log(imran);
+console.log(Imran);
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
 buttons.forEach(function (button) {
