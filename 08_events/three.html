@@ -1,0 +1,46 @@
+// setInterval Method
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async  js</title>
+</head>
+<body>
+    <h1>Javascript with imran</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const sayDate = function(){
+        console.log('Hi','Imran', Date.now());
+    }
+    let intervalId;
+    const startInterval = function(){
+         intervalId = setInterval(printInterval , 1000);
+        function printInterval(){
+            const printInterval = sayDate()
+            
+        }
+        console.log('START');
+
+
+    };
+    
+
+        const stopInterval = function(){
+            clearInterval(intervalId)
+            console.log('STOPED');
+        };
+    
+     document.querySelector('#start').addEventListener('click', startInterval);
+
+     document.querySelector("#stop").addEventListener('click', stopInterval);
+     
+    
+    
+
+   
+</script>
+</html>
