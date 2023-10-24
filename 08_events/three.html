@@ -18,7 +18,9 @@
     }
     let intervalId;
     const startInterval = function(){
-         intervalId = setInterval(printInterval , 1000);
+         if (!intervalId) {
+            intervalId = setInterval(printInterval , 1000);
+         }
         function printInterval(){
             const printInterval = sayDate()
             
@@ -27,6 +29,7 @@
     };
         const stopInterval = function(){
             clearInterval(intervalId)
+            intervalId = null;
             console.log('STOPED');
         };
      document.querySelector('#start').addEventListener('click', startInterval);
