@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Request</title>
+</head>
+<!-- <body style="color: white; background-color: #212121; padding: 20px; margin: 0;"  >
+    <h1><u>XMLHttpRequest: readyState property</u></h1>
+   <h2> 0: UNSENT	Client has been created. open() not called yet.</h2> 
+<h3> 1: OPENED	open() has been called.</h3>
+<h3> 2:	HEADERS_RECEIVED	send() has been called, and headers and status are available.</h3>
+<h4> 3:	LOADING	Downloading; responseText holds partial data.</h4>
+<h4> 4:	DONE	The operation is complete.</h4> -->
+<style>
+     .card {
+        /* Add shadows to create the "card" effect */
+        width: 500px;
+        height: 600px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+      }
+    .container {
+        padding: 2px 16px;
+      }
+</style>
+
+<div class="card">
+    <img src=
+    "https://avatars.githubusercontent.com/u/10910170?v=4" alt="Avatar" style="width:100%">
+    <div class="container">
+      <h4>John Doe</h4>
+      <p>Architect & Engineer</p>
+    </div>
+  </div>
+</body>
+<script>
+    const requestUrl = 'https://api.github.com/users/imranGhafoor'
+    const xhr = new XMLHttpRequest();
+    // console.log("UNSENT", xhr.readyState);
+    xhr.open('GET', requestUrl )
+    xhr.onreadystatechange = function(){     // state continusely change // Async function
+        // console.log(xhr.readyState);
+        if (xhr.readyState === 4) {
+            const data = JSON.parse(this.responseText);   // convert data string to numbers
+
+            const name = function(){
+                data.name()
+            }
+        }
+    }
+    xhr.send();
+
+    document.querySelector('.card img').setAttribute("src",`${data.avatar_url}`);
+    document.querySelector("h4").innerHTML = `${data.name} , Followers : ${data.followers}`;
+    document.querySelector("h4").style.fontWeight = `bold`;
+    document.querySelector("p").innerHTML = `${data.bio}  ${data.blog}`
+    
+    
+    
+</script>
+</html>
