@@ -84,7 +84,7 @@ async function consumePromiseFive() {
 }
 consumePromiseFive();
 
-// async await
+// async await // fetch
 async function getAllUsers() {
     const response = await fetch('https://jsonplaceholder.typicode.com/users')
     try {
@@ -96,7 +96,7 @@ async function getAllUsers() {
 }
 getAllUsers()
 
-
+// fetch // .then .catch
 const fetch = require('node-fetch');
 fetch('https://jsonplaceholder.typicode.com/users')
     .then((response) => {
