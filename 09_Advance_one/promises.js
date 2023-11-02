@@ -16,6 +16,8 @@ promiseOne.then(function () {
     console.log("promised consumed");
 })
 
+// promises 2
+
 new Promise(function (resolve, reject) {
     setTimeout(function () {
         console.log("Async task 2 complete");
