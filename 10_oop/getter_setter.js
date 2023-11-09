@@ -1,3 +1,5 @@
+// class base getter_setter
+
 class User {
     constructor(gmail, password) {
         this.gmail = gmail
