@@ -1,0 +1,45 @@
+// Lexical Scoping
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closures</title>
+</head>
+<body style="background-color: #313131;">
+    
+</body>
+<script>
+//     function init() {
+//   let name = "Mozilla"; 
+//   function displayName() {
+    
+//     console.log(name);
+//   }
+//   displayName();
+// }
+// init();
+
+
+function Outer(){
+    let username = 'imran'
+    console.log("outer", secrete); 
+    function inner(){
+        let secrete = 'abc786'
+        console.log("inner",username);
+    }
+    function ineerTwo(){
+            console.log("innerTwo", username);
+            console.log(secrete);
+        }
+    inner()
+    ineerTwo()
+    
+}
+Outer()
+console.log("TOO OUTER", username);
+
+</script>
+</html>
+
+<!-- parent function share property to child , but child nit share to parent  -->
